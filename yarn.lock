@@ -826,14 +826,14 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-dotenv-flow-webpack@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/dotenv-flow-webpack/-/dotenv-flow-webpack-1.1.0.tgz#40976386d3bf93ad1d636cacd62ef79ed14917d5"
-  integrity sha512-U6klxT4Tjeka7RoEr//8b4fBm+LupsWgiHOoAE/vSfKzx4g8xpRh4dn59QyyTczbLS7SjKSHchlAHzhSu2ER3Q==
+dotenv-flow-webpack@^1.2.0-rc.1:
+  version "1.2.0-rc.1"
+  resolved "https://registry.yarnpkg.com/dotenv-flow-webpack/-/dotenv-flow-webpack-1.2.0-rc.1.tgz#c947ccb17a99dc31bbe109183f8e5ddeba919a8f"
+  integrity sha512-GttCg9gNNztTFW+n4o8XIHxdxfpUymSER7Rqdn0ueb1dW03yZfkNKzX5G8tY/ZofBiCYa7RMPoWz01CdSXA8Mw==
   dependencies:
-    dotenv-flow "^3.2.0"
+    dotenv-flow "^3.3.0"
 
-dotenv-flow@^3.2.0:
+dotenv-flow@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/dotenv-flow/-/dotenv-flow-3.3.0.tgz#e22341c035d5672b923bf76feb35999f728ee456"
   integrity sha512-GLSvRqDZ1TGhloS6ZCZ5chdqqv/3XMqZxAnX9rliJiHn6uyJLguKeu+3M2kcagBkoVCnLWYfbR4rfFe1xSU39A==
