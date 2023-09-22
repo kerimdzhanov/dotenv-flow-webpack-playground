@@ -9,7 +9,13 @@ that is created for you to try out and play with the functionality of the plugin
 ##### 1. Pull the project source from GitHub:
 
 ```sh
-$ git clone https://github.com/kerimdzhanov/dotenv-flow-webpack.git
+$ git clone https://github.com/kerimdzhanov/dotenv-flow-webpack-playground.git
+```
+
+…or:
+
+```sh
+$ git clone git@github.com:kerimdzhanov/dotenv-flow-webpack-playground.git
 ```
 
 ##### 2. Install dependencies

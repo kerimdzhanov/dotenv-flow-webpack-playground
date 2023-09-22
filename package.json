@@ -1,6 +1,6 @@
 {
   "name": "dotenv-flow-webpack-playground",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "dotenv-flow-webpack playground project (using webpack 5)",
   "dependencies": {},
   "devDependencies": {
