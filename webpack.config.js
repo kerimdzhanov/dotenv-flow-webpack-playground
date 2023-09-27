@@ -84,7 +84,8 @@ module.exports = (env, argv) => {
 	config.plugins.push(
 		new DotenvFlow({
 			node_env: (argv.mode !== 'none') ? argv.mode : 'development',
-			system_vars: true
+			system_vars: true,
+			debug: true
 		})
 	);
 

@@ -826,24 +826,24 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-dotenv-flow-webpack@^1.2.0-rc.1:
-  version "1.2.0-rc.1"
-  resolved "https://registry.yarnpkg.com/dotenv-flow-webpack/-/dotenv-flow-webpack-1.2.0-rc.1.tgz#c947ccb17a99dc31bbe109183f8e5ddeba919a8f"
-  integrity sha512-GttCg9gNNztTFW+n4o8XIHxdxfpUymSER7Rqdn0ueb1dW03yZfkNKzX5G8tY/ZofBiCYa7RMPoWz01CdSXA8Mw==
+dotenv-flow-webpack@^2.0.0-rc.1:
+  version "2.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/dotenv-flow-webpack/-/dotenv-flow-webpack-2.0.0-rc.1.tgz#356b524b1e7a25547aabb314b3d1247940ff40e1"
+  integrity sha512-eUc4FQqkdzXWnOPiIjyPTmFW+T+p2Zx8zpayIIQ6fM6+e62WJgJoU/cxYGevqKyv41bOsDAzxFE8kuOpe2nrVw==
   dependencies:
-    dotenv-flow "^3.3.0"
+    dotenv-flow "^4.0.0-rc.3"
 
-dotenv-flow@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/dotenv-flow/-/dotenv-flow-3.3.0.tgz#e22341c035d5672b923bf76feb35999f728ee456"
-  integrity sha512-GLSvRqDZ1TGhloS6ZCZ5chdqqv/3XMqZxAnX9rliJiHn6uyJLguKeu+3M2kcagBkoVCnLWYfbR4rfFe1xSU39A==
+dotenv-flow@^4.0.0-rc.3:
+  version "4.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/dotenv-flow/-/dotenv-flow-4.0.0-rc.3.tgz#6d26efa44a7ec662e065d411696d48a0ba28bf4b"
+  integrity sha512-vCJqc36kUmIgwluDNkLnIPYB3qvLELUzUxVr91s3gvhtl2WKP9DKigEGrH97KaAj1TEpgJXYCqZ7jP94TLiBnw==
   dependencies:
-    dotenv "^8.6.0"
+    dotenv "^16.0.0"
 
-dotenv@^8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
-  integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
+dotenv@^16.0.0:
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
 ee-first@1.1.1:
   version "1.1.1"
