@@ -860,10 +860,10 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-dotenv-flow-webpack@^2.0.0-rc.1:
-  version "2.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/dotenv-flow-webpack/-/dotenv-flow-webpack-2.0.0-rc.1.tgz#356b524b1e7a25547aabb314b3d1247940ff40e1"
-  integrity sha512-eUc4FQqkdzXWnOPiIjyPTmFW+T+p2Zx8zpayIIQ6fM6+e62WJgJoU/cxYGevqKyv41bOsDAzxFE8kuOpe2nrVw==
+dotenv-flow-webpack@^2.0.0-rc.2:
+  version "2.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/dotenv-flow-webpack/-/dotenv-flow-webpack-2.0.0-rc.2.tgz#f288ae9b7779c1afb80f53564f9e00c6377273ce"
+  integrity sha512-tnEvHL1VFKPzN9FV6DL4heb+8ba6KwWYZCHuZedfb7OcvPJb6d+t54dLzF1bG+u8wL/CtOZKPUSBwONGtatw7w==
   dependencies:
     dotenv-flow "^4.0.0-rc.3"
 
@@ -2191,6 +2191,7 @@ statuses@2.0.1:
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
