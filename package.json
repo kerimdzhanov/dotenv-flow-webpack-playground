@@ -8,6 +8,7 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "dotenv-flow-webpack": "^2.0.0-rc.1",
     "html-webpack-plugin": "^5.5.3",
+    "rimraf": "^5.0.5",
     "ts-loader": "^9.4.4",
     "typescript": "^5.2.2",
     "webpack": "^5.88.2",
@@ -15,8 +16,13 @@
     "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
-    "build": "SYSTEM_ENV_VAR=ok webpack --node-env=production",
-    "start": "SYSTEM_ENV_VAR=ok NODE_ENV=development webpack-dev-server"
+    "clean": "rimraf ./dist",
+    "build": "webpack --mode=development",
+    "build:prod": "webpack --mode=production",
+    "build-with-system-vars": "SYSTEM_ENV_VAR=ok webpack --mode=development -c ./webpack.system-vars.config.js",
+    "build-with-custom-pattern": "webpack --mode=development -c ./webpack.custom-pattern.config.js",
+    "start": "webpack-dev-server --mode=development",
+    "start:prod": "webpack-dev-server --mode=production"
   },
   "author": "Dan Kerimdzhanov",
   "license": "MIT"
